@@ -1,3 +1,43 @@
 footer{
     height: 40vh;
 }
+.carousel-item{
+    height: 90vh;
+    /* min-height: 300px; */
+    background: no-repeat scroll center scroll;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+.carousel-item img{
+   object-fit: cover;
+   object-position: center;
+   width: 100%;
+   height: 100%;
+}
+.carousel-item::before{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: #000;
+    opacity: 0.7;
+}
+.carousel-caption{
+    top: 50%;
+    width: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.carousel-caption h5{
+    font-size: 70px;
+    font-weight: 700;
+}
+.carousel-caption h6{
+    font-size: 40px;
+}
+.carousel-caption p{
+    font-size: 18px;
+}
