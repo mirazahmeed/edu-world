@@ -1,6 +1,13 @@
 footer{
     height: 40vh;
 }
+.links{
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
 .carousel-item{
     height: 90vh;
     /* min-height: 300px; */
